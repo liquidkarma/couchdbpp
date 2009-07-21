@@ -1,4 +1,4 @@
 AUTOMAKE_OPTIONS = foreign
-SUBDIRS = src test
-
-TESTS = test/couchdb_tester
+SUBDIRS          = src test
+EXTRA_DIST       = include/tinyjson/tinyjson.hpp
+TESTS            = test/couchdb_tester
